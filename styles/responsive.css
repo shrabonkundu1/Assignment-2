@@ -114,4 +114,48 @@
     }
 
      /* habit-change-images end here */
+
+     /* running section start here */
+    .running-section {
+        position: relative;
+        top: 250px;
+        flex-direction: column;
+        height: 600px ;
+    }
+
+    .running-description {
+        position: absolute;
+        top: 70px;
+       width: 287px;
+        padding: 0;
+    }
+
+    .running-description h3 {
+        font-size: 2rem;
+    }
+    .running-description .run-des {
+        font-size: 0.85rem;
+        
+    }
+    
+
+    .running-image {
+        position: absolute;
+        top: 330px;
+        width: 287px;
+    }
+    .running-image img {
+        width: 100%; 
+        height: 40%;
+        object-fit: cover;
+        /* transform: scale(2); */
+        border-radius: 18px;
+    } 
+
+    .bton-size .btn-primary-3 {
+        margin: 0 auto;
+        padding: 20px 104px;
+        margin-bottom: 30px;
+    }
+     /* running section end here */
 }
