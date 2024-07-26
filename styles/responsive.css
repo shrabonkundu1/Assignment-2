@@ -79,7 +79,39 @@
    .box-3 p{
     font-size: 0.7rem;
    }
-}
+
 
  /* description section  end here*/ 
 
+ /* habit-change-section start here*/
+    .habit-change-section {
+    position: relative;
+    top: 287px;
+    }
+
+    .change-habit-description {
+        width: 100%;
+    }
+
+    .change-habit-description h1 {
+        font-size: 2rem;
+    }
+
+    .change-habit-description p{
+        margin-bottom: 0;
+    }
+ /* habit-change-section end here*/
+
+ /* habit-change-images start here */
+
+    .habit-change-images {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 2rem auto;
+    }
+
+    .image-1 {
+        margin-bottom: 40px;
+    }
+
+     /* habit-change-images end here */
+}
