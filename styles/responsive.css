@@ -94,6 +94,7 @@
     .habit-change-section {
     position: relative;
     top: 287px;
+    width: 90%;
     }
 
     .change-habit-description {
@@ -128,12 +129,13 @@
         top: 250px;
         flex-direction: column;
         height: 600px ;
+        width: 90%;
     }
 
     .running-description {
         position: absolute;
         top: 70px;
-       width: 287px;
+       width: 340px;
         padding: 0;
     }
 
@@ -149,7 +151,7 @@
     .running-image {
         position: absolute;
         top: 330px;
-        width: 287px;
+        width: 340px;
     }
     .running-image img {
         width: 100%; 
@@ -165,4 +167,85 @@
         margin-bottom: 30px;
     }
      /* running section end here */
+
+     /* unic section start here */
+
+    .unic-section {
+        position: relative;
+        top: 170px;
+        flex-direction: column;
+        width: 90%;
+        
+    }
+
+    .unic-container {
+        width: 100%;
+    }
+
+    .gym-town  {
+        font-size: 2rem;
+    }
+
+    .unic-content h3 {
+        font-size: 2rem;
+    }
+
+    .unic-content p{ 
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .btn-primary-4 {
+        color: rgb(255, 255, 255);
+        font-size: 1.125rem;
+        font-weight: 600;
+        font-family: "Inter", sans-serif;
+        padding: 12px 15px;
+        border-radius: 42px;
+        border: none;
+        background: rgb(230, 83, 60);
+        width:62%;
+    }
+
+
+    .box-7 {
+        display: none;
+    }
+    .box-5 {
+        width: 100%;
+
+    }
+
+    .unic-images {
+        margin-top: 32px;
+    }
+
+    .unic-images img {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 32px;
+    }
+
+    /* first unic section end here */
+
+    /* second unic section start here */
+
+    .traininng-section {
+        width: 90%;
+        position: relative;
+        top: 60px;
+    }
+
+    .training-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .training-title h3 {
+        font-size: 2rem;
+        padding: 0;
+    }
+
+    /* second unic section end here */
 }
+
+
