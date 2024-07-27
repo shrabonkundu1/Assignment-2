@@ -5,9 +5,16 @@
     .btn-primary-3 {
         display: none;
     }
+    .running-image {
+        display: none;
+    }
 }
 
 @media screen and (max-width:576px) {
+
+    .running-image-2 {
+        display: none;
+    }
     
     .header {
         /* width: 90%; */
