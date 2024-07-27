@@ -280,7 +280,7 @@ body {
 .change-habit-description {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
     text-align: center;
     width: 50%;
