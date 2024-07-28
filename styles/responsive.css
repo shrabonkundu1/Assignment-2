@@ -341,6 +341,26 @@
         font-weight: 400;
         line-height: 24px;
     }
+
+    /* team image container */
+
+    .team-image-container  {
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-image-content img  {
+        width: 342px;
+    }
+
+    .tainer-team-title {
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    .tainer-team-title p{
+        margin-bottom: 40px;
+    }
     
 
 }
