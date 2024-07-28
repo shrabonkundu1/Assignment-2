@@ -280,7 +280,7 @@ body {
 .change-habit-description {
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     text-align: center;
     width: 50%;
@@ -306,7 +306,7 @@ body {
 .habit-change-images {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
+    justify-items: center;
     align-items: center;
     text-align: center;
     margin-bottom: 100px;
@@ -533,7 +533,7 @@ body {
     margin: 0 auto;
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 
 }
 
@@ -642,3 +642,324 @@ body {
 
 
 
+/* bmi cacl head title start  here */
+
+.bmi-calc-title {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    margin-bottom: 90px;
+    margin-top: 52px;
+}
+
+.bmi-calc-title h2 {
+    width: 42%;
+    text-align: left;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.bmi-calc-title p {
+    width: 42%;
+    font-size: 1rem;
+    color: rgba(239, 237, 232, 0.65);
+    line-height: 24px;
+}
+
+
+/* head title */
+
+/* calculator title section start here */
+
+  
+.bmi-calc-section {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(34, 34, 34);
+    color: rgb(255,255,255);
+    height: 500px;
+    display: flex;
+}
+
+.bmi-chart-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.chart-title h3 {
+    font-size: 1.85rem;
+    font-weight: 900;
+    width: 100%;
+    margin-top: 52px;
+}
+
+.bmi-chart-table {
+    width: 100%;
+    margin-left: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 52px;
+}
+
+
+
+.t-head, .t-data {
+    padding: 13px 20px;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+.t-head {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.915);
+    font-weight: 400;
+}
+
+
+
+
+/* calculator title section end  here */
+
+
+
+
+
+
+
+/* bmi-calc-container */
+
+.bmi-calc-container {
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+
+
+/*  bmi calc description start here */
+
+
+
+.bmi-calc-des {
+    width:100%;
+    margin-top: 52px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bmi-calc-des h3 {
+    font-size: 1.85rem;
+    font-weight: 900;
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.bmi-calc-des p {
+    width: 95%;
+    font-size: 1rem;
+    color: rgba(239, 237, 232, 0.65);
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+
+
+
+/*  bmi calc description end here */
+
+/* input-box start here */
+/* 
+.input-box input {
+    padding: 15px 43px;
+    font-size: 1.1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(239, 237, 232);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(239, 237, 232, 0.753);
+}
+
+.input-box-1 {
+    
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 10px;
+    
+}
+
+
+.input-box  select {
+    padding: 15px 135px;
+    font-size: 1.1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(239, 237, 232, 0.755);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+.inputbox-3  select {
+    padding: 15px 135px;
+    font-size: 1.1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(239, 237, 232, 0.755);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+
+.inputbox-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+    margin-bottom: 32px;
+} */
+
+
+input::placeholder {
+    color: rgba(239, 237, 232, 0.753);
+}
+
+.input-box input {
+    padding: 15px 42px;
+    font-size: 1.1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(239, 237, 232, 0.755);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.input-box select {
+    padding: 15px 42px;
+    font-size: 1.1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(239, 237, 232, 0.755);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.input-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+} 
+
+.select-box select {
+    padding: 15px 42px;
+    font-size: 1.1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(239, 237, 232, 0.755);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.select-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+}
+
+.btn-primary-5 {
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    padding: 17px 70px;
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+}
+
+.m-top {
+    margin-top: 32px;
+}
+
+/* inputbox end here */
+
+/* tainer-team-title start here */
+
+.team-section {
+    width: 80% ;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+}
+
+.tainer-team-title {
+    color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.tainer-team-title h3{
+    font-size: 3rem;
+    font-weight: 900;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.tainer-team-title p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+    width: 70%;
+    line-height: 32px;
+}
+
+/* tainer-team-title end here */
+
+/* team-image-content start here */
+
+.team-image-container {
+    border: 2px solid wheat;
+    border-radius: 18px;
+    background-color: rgb(39, 39, 39);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.team-image-content {
+    border: 1px solid white;
+}
+
+.team-image-content img {
+    width:369px ;
+    height: 300px;
+    border: 1px solid burlywood;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+}
+
+
+.trainer-des {
+    
+}
+
+
+/* team-image-content end here */

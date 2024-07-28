@@ -246,6 +246,103 @@
     }
 
     /* second unic section end here */
+
+
+    /* calculator title section start here */
+
+    .bmi-calc-title {
+        width: 90%;
+    }
+
+    .bmi-calc-title h2 {
+        width: 100%;
+    }
+    .bmi-calc-title p {
+        width: 100%;
+    }
+
+     /* calculator title section end here */
+
+     /* calculator  section start here */
+
+     .bmi-calc-section {
+        flex-direction: column;
+        height: 850px;
+     }
+
+     .bmi-chart-container {
+        width: 90%;
+        margin: 0 auto;
+        align-items: normal;
+     }
+
+     .chart-title h3 {
+        font-size: 1.5rem;
+        margin-right: 0;
+        margin-top: 50px;
+        font-weight: 800;
+     }
+
+     .bmi-calc-des h3  {
+        font-size: 1.5rem;
+        font-weight: 800;
+     }
+
+     .bmi-chart-table {
+        margin-left: 0;
+        margin-top: 40px;
+        width: 90%;
+     }
+
+     .bmi-calc-container {
+        width: 90%;
+        margin-left: 0;
+        margin: 0 auto;
+        
+     }
+
+     /* inputbox */
+
+     .input-box input {
+        padding: 15px 42px;
+        width: 100%;
+    }
+    
+    .input-box select {
+        padding: 15px 42px;
+        width: 100%; 
+    }
+
+    /* trainer team section  */
+
+    .team-section {
+        width: 100%;
+        margin: 0;
+    }
+
+    .tainer-team-title{
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .tainer-team-title h3 {
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+
+    .tainer-team-title p {
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    
+
 }
 
 
