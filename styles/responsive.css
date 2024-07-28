@@ -318,6 +318,7 @@
     .team-section {
         width: 100%;
         margin: 0;
+        margin-bottom: 50px;
     }
 
     .tainer-team-title{
@@ -361,6 +362,45 @@
     .tainer-team-title p{
         margin-bottom: 40px;
     }
+
+    /* Footer seciton start here */
+
+
+    .footer-section {
+        justify-content: left;
+        align-items: normal;
+    }
+
+    .first-footer  {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        width: 90%;
+        gap: 35px;
+    }
+
+    .footer-contact {
+        margin-left: 0;
+    }
+
+    .footer-content p {
+        font-size: 1.1rem;
+        margin-bottom: 0;
+    }
+
+    .last-footer {
+        justify-content: left;
+        align-items: normal;
+        text-align: left;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer-section hr {
+        margin-top: 65px;
+        width: 90%;
+    }
+
+    /* Footer seciton start here */
     
 
 }

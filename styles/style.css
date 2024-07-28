@@ -937,7 +937,7 @@ input::placeholder {
 .team-image-container {
     width: 100%;
     border-radius: 18px;
-    background-color: rgb(39, 39, 39);
+    background-color: rgba(255, 255, 255, 0.1);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -980,3 +980,86 @@ input::placeholder {
 
 
 /* team-image-content end here */
+
+/* footer section start */
+
+.footer-section {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+
+.first-footer {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 59px;
+    margin-bottom: 80px;
+}
+
+.footer-content {
+    width: 100%;
+}
+
+.footer-content  h2{
+    font-size: 4.2rem;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.footer-content p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.504);
+}
+
+
+.footer-contact  {
+    width: 100%;
+    margin-left: 90px;
+}
+
+.footer-contact h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: rgb(255,255,255);
+}
+
+.footer-contact p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.503);
+    margin-bottom: 20px;
+}
+
+.footer-section hr {
+    width: 80%;
+    margin : 0 auto; 
+    background-color: rgba(128, 128, 128, 0.356);
+    border: 0;
+    height: 0.8px;
+    margin-bottom: 36px;
+}
+
+
+
+.last-footer {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.504);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.3px;
+}
