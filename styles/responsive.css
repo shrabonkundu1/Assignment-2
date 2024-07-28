@@ -370,22 +370,34 @@
         justify-content: left;
         align-items: normal;
         padding-top: 45px;
-    }
+    } 
 
     .first-footer  {
         grid-template-columns: repeat(1, 1fr);
         margin: 0 auto;
         width: 90%;
-        gap: 35px;
+        gap: 20px;
     }
 
     .footer-contact {
         margin-left: 0;
     }
 
+    .footer-contact  h4{
+        margin-bottom: 25px;
+    }
+    
+    .footer-contact p{
+        margin-bottom: 10px;
+    }
+
     .footer-content p {
         font-size: 1.1rem;
         margin-bottom: 0;
+    }
+
+    .footer-content {
+        margin-bottom: 20px;
     }
 
     .last-footer {
@@ -397,7 +409,7 @@
     }
 
     .footer-section hr {
-        margin-top: 65px;
+        margin-top: 55px;
         width: 90%;
     }
 
