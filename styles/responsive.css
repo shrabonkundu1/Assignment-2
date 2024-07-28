@@ -369,6 +369,7 @@
     .footer-section {
         justify-content: left;
         align-items: normal;
+        padding-top: 45px;
     }
 
     .first-footer  {
