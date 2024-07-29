@@ -95,7 +95,6 @@ body {
     justify-content: center;
     text-align: left;
     gap: 80px;
-    
 }
 
 .description-container {
@@ -283,7 +282,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 50%;
+    width: 60%;
     margin: 2rem auto;
 }
 .change-habit-description h1 {
@@ -652,8 +651,8 @@ body {
     align-items: center;
     justify-content: left;
     text-align: left;
-    margin-bottom: 90px;
-    margin-top: 52px;
+    margin-bottom: 75px;
+    margin-top: 0px;
 }
 
 .bmi-calc-title h2 {
@@ -749,8 +748,7 @@ body {
 
 /*  bmi calc description start here */
 
-
-
+ 
 .bmi-calc-des {
     width:100%;
     margin-top: 52px;
@@ -780,56 +778,6 @@ body {
 /*  bmi calc description end here */
 
 /* input-box start here */
-/* 
-.input-box input {
-    padding: 15px 43px;
-    font-size: 1.1rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: rgb(239, 237, 232);
-    border-radius: 8px;
-    border: none;
-    outline: none;
-}
-
-input::placeholder {
-    color: rgba(239, 237, 232, 0.753);
-}
-
-.input-box-1 {
-    
-    display: grid;
-    grid-template-columns: repeat(2 ,1fr);
-    gap: 10px;
-    
-}
-
-
-.input-box  select {
-    padding: 15px 135px;
-    font-size: 1.1rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: rgba(239, 237, 232, 0.755);
-    border-radius: 8px;
-    border: none;
-    outline: none;
-}
-.inputbox-3  select {
-    padding: 15px 135px;
-    font-size: 1.1rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: rgba(239, 237, 232, 0.755);
-    border-radius: 8px;
-    border: none;
-    outline: none;
-}
-
-
-.inputbox-3 {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 10px;
-    margin-bottom: 32px;
-} */
 
 
 input::placeholder {
@@ -922,10 +870,10 @@ input::placeholder {
 
 
 .tainer-team-title p{
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 400;
     color: rgba(239, 237, 232, 0.65);
-    width: 70%;
+    width: 78%;
     line-height: 32px;
     margin-bottom: 70px;
 }
@@ -1018,7 +966,7 @@ input::placeholder {
 }
 
 .footer-content p {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     font-weight: 400;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.504);
