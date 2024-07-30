@@ -143,7 +143,7 @@
     
     .description-container p {
         color: rgba(255,255,255,0.5);
-        font-size: 1rem;
+        font-size: 1.15rem;
         font-weight: 400;
         font-family: "Inter", sans-serif;
         line-height: 24px;
@@ -1045,6 +1045,10 @@
 }
 
 @media screen and (max-width:576px) {
+ 
+    .description-container p {
+        font-size: 1rem;
+    }
 
     .running-image-2 {
         display: none;
