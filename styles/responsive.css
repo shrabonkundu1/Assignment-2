@@ -42,7 +42,7 @@
     
     
     .header {
-        max-width: 1558px;
+        max-width: 100%;
         margin: 0 auto;
         height: 722px;
         background: linear-gradient(180.00deg, rgb(24, 24, 24)50%,rgba(119, 119, 119, 0) );
@@ -526,6 +526,10 @@
         padding: 15px 35px;
         border: 2px solid rgba(48, 48, 48, 0.803);
         border-radius: 8px;
+        position: absolute;
+        left: -36px;
+        bottom: -32px;
+        z-index: 1;
     }
     
     .box-7 h2 {
@@ -535,6 +539,7 @@
     
     
     .unic-images{
+        position: relative;
     }
     
     .unic-images img {
@@ -671,7 +676,7 @@
         align-items: center;
         justify-content: left;
         text-align: left;
-        margin-bottom: 75px;
+        margin-bottom: 35px;
         margin-top: 0px;
     }
     
@@ -1212,11 +1217,11 @@
     }
 
     .gym-town  {
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
 
     .unic-content h3 {
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
 
     .unic-content p{ 
@@ -1236,22 +1241,28 @@
         width:62%;
     }
 
+    
+    .unic-images {
+        width: 100%;
+        margin-top: 32px;
+        position: relative;
+    }
 
     .box-7 {
-        display: none;
+        position: absolute;
+        left: 230px;
+        bottom: 0px;
+        padding: 12px 25px;
+
     }
     .box-5 {
         width: 100%;
 
     }
 
-    .unic-images {
-        width: 100%;
-        margin-top: 32px;
-    }
 
     .unic-images img {
-        width: 100%;
+        width: 90%;
         height: 250px;
         margin-bottom: 32px;
     }
@@ -1263,7 +1274,7 @@
     .traininng-section {
         width: 90%;
         position: relative;
-        top: 60px;
+        top: 80px;
     }
 
     .training-content {
